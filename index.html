@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="css/icon-font.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>Personal website</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__photo">
+        <img src="../img/photo.jpg" alt="photo" />
+      </div>
+      <div class="header__text">
+        <h1 class="heading-primary heading-primary--main">
+          Hi, my name is Roman
+        </h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-bio">
+        <div class="bio">
+          <h2
+            class="bio__heading heading-secondary u-center-text u-margin-bottom-small"
+          >
+            I am full-stack web developer
+          </h2>
+
+          <p class="paragraph bio__text">
+            I am self-taught web developer with a passion of designing and
+            building web sites and applications. Apart from that, I have
+            Bachelor's Degree in Engineering and Master's Degree in Physics.
+            <br />
+            As a JavaScript programmer I am proficient in both front-end and
+            back-end web development and have deep knowledge of many modern web
+            technologies. With more than 2 years of experience in software
+            development, my main goal is to provide best possible service to my
+            clients.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-skills">
+        <div class="skills">
+          <div class="skills__heading u-center-text">
+            <h2 class="heading-secondary">My Skills</h2>
+          </div>
+          <div class="skills__front">
+            <img src="img/front.svg" alt="front" class="skills__logo" />
+            <h3
+              class="skills__front--heading heading-tertiary u-margin-bottom-small"
+            >
+              Front-end
+            </h3>
+            <div class="skills__front--content">
+              <ul class="skills__front--list">
+                <li class="skills__front--item">
+                  <i class="fab fa-html5 fa-7x skills__front--icon"></i>
+                  <p class="skills__front--label">
+                    <i class="fa fa-check"></i>HTML
+                  </p>
+                </li>
+                <li>
+                  <i class="fab fa-css3 fa-7x skills__front--icon"></i>
+                  <p class="skills__front--label">
+                    <i class="fa fa-check"></i>CSS
+                  </p>
+                </li>
+                <li>
+                  <i class="fab fa-js fa-7x skills__front--icon"></i>
+                  <p class="skills__front--label">
+                    <i class="fa fa-check"></i>JavaScript
+                  </p>
+                </li>
+                <li>
+                  <i class="fab fa-react fa-7x skills__front--icon"></i>
+                  <p class="skills__front--label">
+                    <i class="fa fa-check"></i>React
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="skills__back">
+            <img src="img/back.svg" alt="back" class="skills__logo" />
+            <h3
+              class="skills__back--heading heading-tertiary u-margin-bottom-small"
+            >
+              Back-end
+            </h3>
+            <div class="skills__back--content">
+              <ul class="skills__back--list">
+                <li>
+                  <i class="fab fa-node-js fa-7x skills__back--icon"></i>
+                  <p class="skills__back--label" style="margin-top: 0.5rem;">
+                    <i class="fa fa-check"></i>NodeJS
+                  </p>
+                </li>
+                <li>
+                  <img
+                    src="img/expressjs.png"
+                    alt=""
+                    class="skills__back--icon-express"
+                  />
+                  <p class="skills__back--label">
+                    <i class="fa fa-check"></i>Express
+                  </p>
+                </li>
+
+                <li>
+                  <img
+                    src="img/mongodb.svg"
+                    alt=""
+                    class="skills__back--icon"
+                  />
+                  <p class="skills__back--label">
+                    <i class="fa fa-check"></i>MongoDB
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-projects">
+        <div class="projects__heading u-center-text">
+          <h2 class="heading-secondary u-margin-bottom-small">
+            My recent projects
+          </h2>
+        </div>
+        <ul class="projects">
+          <li class="projects__item projects__item--1">
+            <img src="img/QnA.png" alt="qna-project" />
+            <p class="projects__item--title">QnA</p>
+            <p class="projects__item--description">
+              Built using React, Redux, NodeJS, MongoDB
+            </p>
+            <a
+              href="https://q-and-a-1.herokuapp.com"
+              target="_blank"
+              class="btn__primary projects__item--btn-web"
+              >Website</a
+            >
+            <a
+              href="https://github.com/romesh87/Q-A"
+              target="_blank"
+              class="btn__primary projects__item--btn-git"
+              >GitHub</a
+            >
+          </li>
+          <li class="projects__item projects__item--2">
+            <img src="img/spacex.png" alt="spacex-project" />
+            <p class="projects__item--title" style="left: 38%;">SpaceX</p>
+            <p class="projects__item--description">
+              Built using React, Redux and Google Firebase
+            </p>
+            <a
+              href="https://spacex-9a1af.web.app"
+              target="_blank"
+              class="btn__primary projects__item--btn-web"
+              >Website</a
+            >
+            <a
+              href="https://github.com/romesh87/SpaceX"
+              target="_blank"
+              class="btn__primary projects__item--btn-git"
+              >GitHub</a
+            >
+          </li>
+          <li class="projects__item projects__item--3">
+            <img src="img/chat.png" alt="chat-project" />
+            <p class="projects__item--title">Chat</p>
+            <p class="projects__item--description">
+              Built using React, NodeJS, Express and Socket.io
+            </p>
+            <a
+              href="https://chatapp-635.herokuapp.com/"
+              target="_blank"
+              class="btn__primary projects__item--btn-web"
+              >Website</a
+            >
+            <a
+              href="https://github.com/romesh87/Chat"
+              target="_blank"
+              class="btn__primary projects__item--btn-git"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="section-contacts">
+        <div class="contacts__heading u-center-text">
+          <h2 class="heading-secondary u-margin-bottom-big">
+            Contact me
+          </h2>
+        </div>
+        <ul class="contacts">
+          <li class="contacts__item">
+            <a
+              class="contacts__link"
+              href="mailto:roman.shishkin87@gmail.com"
+              target="_blank"
+              ><i class="fas fa-envelope fa-7x"></i
+            ></a>
+          </li>
+          <li class="contacts__item">
+            <a
+              href="https://github.com/romesh87"
+              target="_blank"
+              class="contacts__link"
+              ><i class="fab fa-github fa-7x"></i
+            ></a>
+          </li>
+          <li class="contacts__item">
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              class="contacts__link"
+              ><i class="fab fa-facebook fa-7x"></i
+            ></a>
+          </li>
+          <li class="contacts__item">
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              class="contacts__link"
+              ><i class="fab fa-linkedin fa-7x"></i
+            ></a>
+          </li>
+          <li class="contacts__item">
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              class="contacts__link"
+              ><i class="fab fa-twitter fa-7x"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__text">
+        <p class="footer__text--paragraph">
+          Developed by Roman Shishkin in 2020
+        </p>
+        <p class="footer__text--paragraph">roman.shishkin87@gmail.com</p>
+      </div>
+    </footer>
+
+    <!--
+    <section class="grid-test">
+      <div class="row">
+        <div class="col-1-of-2">
+          Col 1 of 2
+        </div>
+        <div class="col-1-of-2">
+          Col 1 of 2
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">
+          Col 1 of 3
+        </div>
+        <div class="col-1-of-3">
+          Col 1 of 3
+        </div>
+        <div class="col-1-of-3">
+          Col 1 of 3
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">
+          Col 1 of 3
+        </div>
+        <div class="col-2-of-3">
+          Col 2 of 3
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">
+          Col 1 of 4
+        </div>
+        <div class="col-1-of-4">
+          Col 1 of 4
+        </div>
+        <div class="col-1-of-4">
+          Col 1 of 4
+        </div>
+        <div class="col-1-of-4">
+          Col 1 of 4
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">
+          Col 1 of 4
+        </div>
+        <div class="col-1-of-4">
+          Col 1 of 4
+        </div>
+        <div class="col-2-of-4">
+          Col 2 of 4
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">
+          Col 1 of 4
+        </div>
+        <div class="col-3-of-4">
+          Col 3 of 4
+        </div>
+      </div>
+    </section>
+  --></body>
+</html>
